@@ -18,7 +18,7 @@ class Solution {
         }
         return out;
     }
-
+//O(n^2)
     public int numJewelsInStones2(String J, String S) {
         HashSet set = new HashSet<Character>();
         int out = 0;
@@ -33,3 +33,4 @@ class Solution {
     return out;
     }
 }
+//O(n)
